@@ -1,5 +1,6 @@
 theschemeofthings
 =================
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/jwdomingo/theschemeofthings?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 The Scheme of Things is my first hand-coded website.
 It traces my journey as an aspiring web developer and in it I write about the languages and technologies I am learning.
