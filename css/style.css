@@ -1,0 +1,217 @@
+/*======================================*/
+/*                                      */
+/*         The Scheme of Things         */    
+/*         CSS3 Main Stylesheet         */
+/*                                      */
+/*   Hand Coded by John Domingo, 2014   */
+/*                                      */
+/*======================================*/
+
+/*
+  Base Colors
+  
+     background:	#202020
+     text:			#808080	
+
+  Primary Colors
+  
+     0: #24B024
+     1: #6DD56D
+     2: #43BF43
+     3: #109010
+     4: #007100
+     
+  Secondary Colors 1
+  
+     0: #1E7787
+     1: #5BA1AE
+     2: #368593
+     3: #0F606F
+     4: #024A57
+     
+  Secondary Colors 2
+  
+     0: #DC822D
+     1: #FFBF82
+     2: #EFA054
+     3: #B46214
+     4: #8E4500
+     
+  Complement Colors
+  
+     0: #DC2D2D
+     1: #FF8282
+     2: #EF5454
+     3: #B41414
+     4: #8E0000
+ */
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0 auto;
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+h1 {
+	color: #1e7787;
+	background-color: rgba(0,0,0,0.14);
+	text-align: center;
+	font-size: 2em;
+	margin: 0 auto;
+	padding: 30px 2%;
+	max-width: 100%;
+}	
+
+h1 a {
+	color: #1e7787;
+}
+
+hr {
+	max-width: 90%;
+}
+
+header, footer {
+	color: #808080;
+	background-color: #fff;
+	font-size: .75em;
+}
+/*
+
+header {
+	margin: 0 auto 25px;
+	max-width: 75%;
+}
+*/
+
+#about, #comingsoon {
+	display: none;
+}
+
+#about:target, #comingsoon:target {
+	margin: -197px auto 0;
+	padding: 197px 0 0;
+	background-color: rgba(0, 0, 0, 0);
+	display: block;
+}
+
+.header-text {
+	max-width: 75%;
+	margin: 0 auto;
+}
+
+.blog-text {	
+	text-align: center;
+	margin-bottom: -5px;
+}
+
+.close {
+	max-width: 90%;
+	text-align: right;
+	display: block;
+	font-size: 1.75em;
+	margin-bottom: -18px;
+}
+
+.close a {
+	color: #b41414;
+}
+
+footer {
+	margin: 20px auto 0;
+	max-width: 88%;
+}
+
+nav {
+	width: 100%;
+	font-size: 0.75em;
+	text-transform: uppercase;
+	background-color: #444;
+	padding: 0.75em 0;
+	margin-bottom: 25px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	list-style: none;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+	width: 30%;
+}
+
+nav ul li a {
+	color: #fff;
+	font-weight: 800;
+}
+
+#current {
+	color: #ffbf82;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1332px;
+	padding: 0 10px 15px;
+	width: 80%;
+}
+
+article h2 {
+	color: #ef5454;
+	margin-bottom: 0;
+	font-size: 1.5em;
+}
+
+article h2 a {
+	color: #ef5454;
+	background-color: #fff;
+}
+
+article h4 {
+	color: #5ba1ae;
+	margin-bottom: 10px;
+}
+
+article h4 + p {
+	margin-top: 0;
+}
+
+article span {
+	color: #909090;
+	font-size: 0.8em;
+}
+
+article h5 {
+	margin-top: 0;
+}
+
+article h5 a {
+	text-decoration: none;
+}
+
+article a {
+	color: #ff8282;
+}
+
+.readmore {
+	font-size: 1em;
+}
+
+.readmore a {
+	color: #0f606f;
+	padding: 2.5px 5px;
+	background-color: rgba(0,0,0,0.14);
+	font-size: 0.75em;
+}
+
+#copyright {
+	text-align: center;
+}

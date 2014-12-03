@@ -2,33 +2,85 @@
 
 <html>
 	<head>
-		<title>The Scheme of Things</title>
+		<meta charset="utf-8"/> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		
+		<title>The Scheme of Things | A Blog About My Web Development Journey</title>
+		
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		
+			ga('create', 'UA-54540453-1', 'auto');
+			ga('send', 'pageview');
+  		</script>
 	</head>
 	<body>
-		<header style="color:gray; font-size:12px">
-			The following page is a hand-coded website chronicling my journey to becoming a web developer. Each blog post will be coupled with some minor or major revision to the structure and style of the website as I learn more about HTML/CSS, JavaScript, PHP, Ruby, and MySQL. I'm building and learning from the ground up with the intention of applying to a coding bootcamp next year. Come join me and see how everything unfolds after the jump!
-		</header>
-		
 		<h1>The Scheme of Things</h1>
-		<h5>Monday, September 1, 2014 &mdash; 1:37 AM</h5>
+
+		<nav>
+			<ul>
+				<li><a href="#" target="_self" id="current">Home</a></li>
+				<li><a href="#comingsoon" target="_self">Blog</a></li>
+				<li><a href="#about" target="_self">About</a></li>
+			</ul>
+		</nav>
+
+		<header id="comingsoon">
+			<span class="close"><a href="#">&otimes;</a></span>
+			<p class ="header-text blog-text">
+				<strong>Separate blog page coming soon!</strong>
+			</p>
+
+			<hr style="margin-top: 25px;">
+		</header>
+
+		<header id="about">
+			<span class="close"><a href="#">&otimes;</a></span>
+			<p class="header-text">
+				The following page is a hand-coded website chronicling my journey to becoming a web developer. Each blog post will be coupled with some minor or major revision to the structure and style of the website as I learn more about HTML/CSS, JavaScript, PHP, Ruby, and MySQL. I'm building and learning from the ground up with the intention of applying to a coding bootcamp next year. Come join me and see how everything unfolds after the jump!
+				
+				<br><br>
+				
+				<strong>Please note</strong> the 'About' and 'Blog' buttons are toggled using a simple CSS hack using the :target pseudo class (no JavaScript yet!) A little tacky, I realize but once I learn jQuery I will replace it!
+			</p>
+
+			<hr style="margin-top: 25px;">
+		</header>
+				
+		<div class="container">
+			<article>
+				<h2><a href="2014/11/progress-update-001.html">Progress Update 001</a></h2>
+				<h5>Saturday, November 29, 2014 &mdash; 9:29 AM</h5>
+					<p>Progress updates are not happening as frequently as I thought they would be but I'm alright with that because I am still learning a lot of foundational material. I want to provide an outline of all the new material I've been learning and some of the resources I've used so far. I'm coming to terms with the fact that the more I learn the more I realize how much more I need to learn. It's a bit overwhelming but there's a light at the end of the tunnel and it's only getting brighter. Is that cheeseballs? Idk, I'm just really motivated to work work work!</p>
+					<p class="readmore"><a href="2014/11/progress-update-001.html">Read More</a> &rarr;</p>
+			</article>
 		
-		<article>
-			<p>It's crazy to think that I'm actually going to attempt what I'm about to do when seven months ago, I don't think I would have even considered it. I'm going to teach myself how to develop a site and a build a web app in preparation for the coding bootcamps I'll be applying to this fall.</p>
+			<article>
+				<h2><a href="2014/11/bleaching-the-canvas.html">Bleaching the Canvas</a></h2>
+				<h5>Sunday, November 9, 2014 &mdash; 5:08 PM</h5>
+					<p>I feel it's important to just flush everything out, everything I've been doing and everything I've learned so far that has led me to this point. This is going to be a long post and hopefully it doesn't put you to sleep. It's going to be like that longish article you buried in your bookmarks intended for a later read but now it's come back all up in your face and I'm making you eat it, but only if you want to, that is. Say noms!</p>
+					<p class="readmore"><a href="2014/11/bleaching-the-canvas.html">Read More</a> &rarr;</p>
+			</article>
 			
-			<p>That means in six months time, I hope to have a professional portfolio and an established presence in the online dev community, enough so that I can confidently submit an application to either <a href ="http://www.hackreactor.com">Hack Reactor</a> or <a href="http://www.devbootcamp.com">Dev Bootcamp</a>.</p>
-			
-			<p>Obviously, this is the first blog post of many more to come (fingers crossed) so it's going to be very bare and introductory at best. There is a lot you need to know about where I am coming from and exactly where I plan to go, but for now I'll leave you with my intention for creating this website and what you can expect if you follow. With each new post, I will attach a screenshot of the what this website looked like before I the most recent changes to the code. This way, I can trace the changes I make to my page as well as my growth as a web developer.</p>
-			
-			<p>I'm not exaggerating when I say this entire process is coming from the ground up and I will elaborate more on this process in the upcoming posts. Let's just take it one post at a time to make sure you keep coming back. Hopefully the idea of this blog is enough of a hook for you.
-			
-			<p>Thank you for reading and hope to see you at the next post! (By the way, I've had to resist every urge to riddle this post with emojis so pat on the back to me, yay.)</p>
-			
-			<p>Happy Coding,</p>
-			<p>John Domingo</p>
-		</article>
+			<article>
+				<h2><a href="2014/09/before-the-jump.html">Before the Jump</a></h2>
+				<h5>Monday, September 1, 2014 &mdash; 1:37 AM</h5>
+					<p>It's crazy to think that I'm actually going to attempt what I'm about to do when seven months ago, I don't think I would have even considered it: I'm going to teach myself how to develop a fully functional responsive website portfolio and a build a few web apps along the way, from the ground up, hand-coded from scratch, all in preparation for the coding bootcamps I'll be applying to next Spring. That's a pretty big deal right!? (Don't tell my I've flatlined before I even started.)</p>
+					<p class="readmore"><a href="2014/09/before-the-jump.html">Read More</a> &rarr;</p>
+			</article>
+		</div> <!-- end container -->
 		
-		<footer style="color:gray; font-size:12px">
-			Want more information? Bookmark this page for now and check back in a while. Soon it will be a lot more functional!
+		<hr>
+		
+		<footer id="copyright">
+			<p>Want more information? Bookmark this page for now and check back in a while. Soon it will be a lot more functional!</p>
+			<p>&copy; 2014 John William Domingo</p>
 		</footer>
 	</body>
 </html>
